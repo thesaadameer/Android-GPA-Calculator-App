@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg4"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/signInTv"
+        android:layout_width="match_parent"
+        android:layout_height="116dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Sign In"
+        android:textColor="@color/material_dynamic_neutral80"
+        android:textSize="34sp" />
+
+    <EditText
+        android:id="@+id/usernameTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:textColor="@color/material_dynamic_neutral80"
+        android:textColorHint="@color/material_dynamic_neutral80"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/passwordTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="@color/material_dynamic_neutral80"
+        android:textColorHint="@color/material_dynamic_neutral80"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Login"
+        android:textSize="20sp" />
+</LinearLayout>

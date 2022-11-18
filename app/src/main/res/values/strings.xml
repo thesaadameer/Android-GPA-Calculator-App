@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Muhammad Saad Ameer_HW1</string>
+    <string name="tvCourseNames">Course Names</string>
+    <string name="tvGrades">Grades</string>
+    <string name="letterGradeA">A</string>
+    <string name="hint">Credits</string>
+</resources>

@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg4"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:text="GPA Calculator"
+        android:textColor="#8B9BF4"
+        android:textColorHighlight="#7798D6"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="323dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="128dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvCourseNames"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:text="Courses"
+                android:textColor="#2196F3"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/course1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Course 1"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:textAlignment="center"
+                android:textColor="@color/material_dynamic_neutral80"
+                android:textColorHint="@color/material_dynamic_neutral80" />
+
+            <EditText
+                android:id="@+id/course2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Course 2"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:textAlignment="center"
+                android:textColor="@color/material_dynamic_neutral80"
+                android:textColorHint="@color/material_dynamic_neutral80" />
+
+            <EditText
+                android:id="@+id/course3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Course 3"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:textAlignment="center"
+                android:textColor="@color/material_dynamic_neutral80"
+                android:textColorHint="@color/material_dynamic_neutral80" />
+
+            <EditText
+                android:id="@+id/course4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Course 4"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:textAlignment="center"
+                android:textColor="@color/material_dynamic_neutral80"
+                android:textColorHint="@color/material_dynamic_neutral80" />
+
+            <EditText
+                android:id="@+id/course5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Course 5"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:textAlignment="center"
+                android:textColor="@color/material_dynamic_neutral80"
+                android:textColorHint="@color/material_dynamic_neutral80" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvGrades"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:text="@string/tvGrades"
+                android:textColor="#2196F3"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/spinner1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/material_dynamic_neutral80"
+                android:entries="@array/gradesList"
+                android:gravity="center"
+                android:minHeight="48dp"
+                android:outlineAmbientShadowColor="@color/material_dynamic_neutral80"
+                android:outlineSpotShadowColor="@color/material_dynamic_neutral80"
+                android:textAlignment="center" />
+
+            <Spinner
+                android:id="@+id/spinner2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/material_dynamic_neutral80"
+                android:entries="@array/gradesList"
+                android:minHeight="48dp"
+                android:textAlignment="center" />
+
+            <Spinner
+                android:id="@+id/spinner3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/material_dynamic_neutral80"
+                android:entries="@array/gradesList"
+                android:minHeight="48dp"
+                android:textAlignment="center" />
+
+            <Spinner
+                android:id="@+id/spinner4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/material_dynamic_neutral80"
+                android:entries="@array/gradesList"
+                android:gravity="center"
+                android:minHeight="48dp"
+                android:textAlignment="center" />
+
+            <Spinner
+                android:id="@+id/spinner5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/material_dynamic_neutral80"
+                android:entries="@array/gradesList"
+                android:gravity="center"
+                android:minHeight="48dp"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvCredits"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:text="Credits"
+                android:textColor="#2196F3"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/credits1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/hint"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:textAlignment="center"
+                android:textColor="@color/material_dynamic_neutral80"
+                android:textColorHint="@color/material_dynamic_neutral80" />
+
+            <EditText
+                android:id="@+id/credits2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/hint"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:textAlignment="center"
+                android:textColor="@color/material_dynamic_neutral80"
+                android:textColorHint="@color/material_dynamic_neutral80" />
+
+            <EditText
+                android:id="@+id/credits3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/hint"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:textAlignment="center"
+                android:textColor="@color/material_dynamic_neutral80"
+                android:textColorHint="@color/material_dynamic_neutral80" />
+
+            <EditText
+                android:id="@+id/credits4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/hint"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:textAlignment="center"
+                android:textColor="@color/material_dynamic_neutral80"
+                android:textColorHint="@color/material_dynamic_neutral80" />
+
+            <EditText
+                android:id="@+id/credits5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="@string/hint"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:textAlignment="center"
+                android:textColor="@color/material_dynamic_neutral80"
+                android:textColorHint="@color/material_dynamic_neutral80" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:max="8"
+        android:min="1"
+        android:thumb="@android:drawable/ic_menu_myplaces" />
+
+    <TextView
+        android:id="@+id/semesterSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"
+        android:text="Semester 1"
+        android:textColor="#03A9F4"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate GPA" />
+</LinearLayout>
