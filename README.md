@@ -1,5 +1,7 @@
 # Android-GPA-Calculator-App
 This app calculates the GPA of students by taking the course credits and their respective grades.
+The sign in screen validates the users so that only registered users can use the app.
+The final screen shows a warning message if the GPA is below 2.0.
 
 ![Screenshot (254)](https://user-images.githubusercontent.com/94324724/202678460-2bb039f2-089e-48c1-9721-ca0e8f38fb35.png)
 
